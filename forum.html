@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Post a new Threads – </title>
+    <link rel="shortcut icon" href="assets/images/site_logo/favourite_icon.svg">
+
+    <!-- Fraimwork - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!-- Icon Font - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
+
+    <!-- Animation - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+
+    <!-- Cursor - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/cursor.min.css">
+    <style>
+      .thread {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .post, .reply {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            flex-grow: 1;
+        }
+        .content h4 {
+            margin: 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .content p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .timestamp {
+            font-size: 0.8em;
+            color: #999;
+        }
+        .replies {
+            margin-left: 65px;
+        }
+        .add-reply button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .add-reply button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <!-- Carousel - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.min.css">
+
+    <!-- Video & Image Popup - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.min.css">
+
+    <!-- Counter - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css">
+
+    <!-- Custom - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+
+  <body>
+
+    <!-- Body Wrap - Start -->
+    <div class="page_wrapper">
+
+      <!-- Back To Top - Start -->
+      <div class="backtotop">
+        <a href="#" class="scroll">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+      <!-- Back To Top - End -->
+
+      <!-- Site Header - Start
+      ================================================== -->
+      <header class="site_header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-5">
+              <div class="site_logo">
+                <a class="site_link" href="index.html">
+                  <img src="assets/images/site_logo/logo.svg" alt="Site Logo – Better Tommorow – ">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-9 col-2">
+              <nav class="main_menu navbar navbar-expand-lg">
+                <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
+                  <ul class="main_menu_list unordered_list">
+                    <li >
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li >
+                      <a class="nav-link" href="virtual_assistant.html">Ai Psychotherapist</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" href="videos.html">videos</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" href="motivation.html">Motivate Me</a>
+                    </li>
+                    <li class="active">
+                      <a class="nav-link" href="forum.html">Forum</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Site Header - End
+      ================================================== -->
+
+      <!-- Main Body - Start
+      ================================================== -->
+      <main class="page_content">
+
+        <!-- Page Banner - Start
+        ================================================== -->
+        <section class="page_banner decoration_wrapper p-3">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <h3 class="">Forum</h3>
+              </div>
+              <div class="col-lg-6">
+                <ul class="breadcrumb_nav unordered_list justify-content-lg-end justify-content-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li>Forum</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="decoration_item shape_leaf_1">
+            <img src="assets/images/shapes/shape_leaf_left.svg" alt="Shape Leaf - Better Tomorrow - ">
+          </div>
+          <div class="decoration_item shape_leaf_2">
+            <img src="assets/images/shapes/shape_leaf_right.svg" alt="Shape Leaf - Better Tomorrow - ">
+          </div>
+        </section>
+        <!-- Page Banner - End
+        ================================================== -->
+
+        <!-- Contact Section - Start
+        ================================================== -->
+        <section class="contact_section section_space_lg" style="padding: 0%;">
+          <div class="container">
+            <div class="conatiner_box" style="padding-top: 2%;" >
+              <div class="section_heading mb-4">
+                <div class="row justify-content-lg-between">
+                  <div class="col-lg-6">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="section_heading_description mb-0 ps-lg-4">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row justify-content-lg-between">
+                <div class="col-lg-9 mb-lg-0 mb-4">
+                  <div class="row">          
+                    <div class="col-12">
+                      <div class="thread">
+                        <!-- Original Post -->
+                        <div class="post">
+                            <div class="avatar">
+                                <img src="assets/images/user.png" alt="User Avatar">
+                            </div>
+                            <div class="content">
+                                <h4>Anonymous</h4>
+                                <p>Let's discuss!</p>
+                                <div class="timestamp">Posted on: Nov 24, 2024</div>
+                            </div>
+                        </div>
+                    
+                        <!-- Replies -->
+                        <div class="replies">
+                            <div class="reply">
+                                <div class="avatar">
+                                    <img src="assets/images/doctor1.png" alt="Reply Avatar 1">
+                                </div>
+                                <div class="content">
+                                    <h4>Doctor 1</h4>
+                                    <p>reply</p>
+                                    <div class="timestamp">Replied on: Nov 24, 2024</div>
+                                </div>
+                            </div>
+                            <div class="reply">
+                                <div class="avatar">
+                                    <img src="assets/images/doctor1.png" alt="Reply Avatar 2">
+                                </div>
+                                <div class="content">
+                                    <h4>doctor 2</h4>
+                                    <p>reply</p>
+                                    <div class="timestamp">Replied on: Nov 24, 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                          <!-- Add a Reply -->
+    <div class="add-reply">
+      <textarea id="input_message" class="form-control" name="comment" placeholder="Your message"></textarea>
+      <button class="mt-2">Post Reply</button>
+  </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section - End
+        ================================================== -->
+
+        <!-- Google Map - Start
+        ================================================== -->
+        <!-- Google Map - End
+        ================================================== -->
+
+      </main>
+      <!-- Main Body - End
+      ================================================== -->
+
+      <!-- Site Footer - Start
+      ================================================== -->
+      <footer class="site_footer bg_primary">
+        <div class="container">
+          <div class="site_footer_content">
+            <div class="row align-items-center">
+              <div class="col-lg-3">
+                <div class="site_logo">
+                  <a class="site_link" href="index.html">
+                    <img src="assets/images/site_logo/logo-white.svg" alt="Site Logo – Better Tomorrow – ">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <ul class="info_list unordered_list justify-content-center">
+                  <li>
+                    <a href="index.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">About</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Program</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Blog</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Gallery</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Contacts</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <ul class="social_links unordered_list justify-content-center justify-content-lg-end">
+                  <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="copyright_widget text-center">
+            <p class="copyright_text m-0"> <b>betterTomorrow</b>  All rights reserved Copyrights 2024</p>
+          </div>
+        </div>
+      </footer>
+      <!-- Site Footer - End
+      ================================================== -->
+
+    </div>
+    <!-- Body Wrap - End -->
+
+    <!-- Fraimwork - Jquery Include -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+
+    <!-- animation - jquery include -->
+    <script src="assets/js/cursor.min.js"></script>
+
+    <!-- Carousel - Jquery Include -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Video & Image Popup - Jquery Include -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    
+    <!-- Counter - Jquery Include -->
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+
+    <!-- Custom - Jquery Include -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
