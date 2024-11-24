@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Chat - Better Tomorrow – </title>
+    <link rel="shortcut icon" href="assets/images/site_logo/favourite_icon.svg">
+
+    <!-- Fraimwork - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!-- Icon Font - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
+
+    <!-- Animation - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+
+    <!-- Cursor - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/cursor.min.css">
+
+    <!-- Carousel - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.min.css">
+
+    <!-- Video & Image Popup - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.min.css">
+
+    <!-- Counter - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css">
+
+    <!-- Custom - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+
+  <body>
+
+    <!-- Body Wrap - Start -->
+    <div class="page_wrapper">
+
+      <!-- Back To Top - Start -->
+      <div class="backtotop">
+        <a href="#" class="scroll">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+      <!-- Back To Top - End -->
+
+      <!-- Site Header - Start
+      ================================================== -->
+      <header class="site_header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-5">
+              <div class="site_logo">
+                <a class="site_link" href="index.html">
+                  <img src="assets/images/site_logo/logo.svg" alt="Site Logo – Better Tommorow – ">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-2">
+              <nav class="main_menu navbar navbar-expand-lg">
+                <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
+                  <ul class="main_menu_list unordered_list">
+                    <li >
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li class="active">
+                      <a class="nav-link" href="virtual_assistant.html">Ai Psychotherapist</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" href="videos.html">videos</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" href="motivation.html">Motivate Me</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="col-lg-3 col-5">
+              <ul class="header_btns_group unordered_list justify-content-end">
+                <li>
+                  <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="far fa-bars"></i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn_hotline" href="tel:+8801680636189">
+                    <span class="btn_icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <span class="btn_text">+216-29727330</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Site Header - End
+      ================================================== -->
+
+      <!-- Main Body - Start
+      ================================================== -->
+      <main class="page_content">
+
+        <!-- Page Banner - Start
+        ================================================== -->
+        <section class="page_banner decoration_wrapper p-3">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-9">
+                <h2 >Chat with a virtual assistant</h2>
+              </div>
+              <div class="col-lg-3">
+                <ul class="breadcrumb_nav unordered_list justify-content-lg-end justify-content-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li>CHAT</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="decoration_item shape_leaf_1">
+            <img src="assets/images/shapes/shape_leaf_left.svg" alt="Shape Leaf - Better Tomorrow - ">
+          </div>
+          <div padding class="decoration_item shape_leaf_2">
+            <img src="assets/images/shapes/shape_leaf_right.svg" alt="Shape Leaf - Better Tomorrow - ">
+          </div>
+        </section>
+        <div style="display: flex; justify-content: center; align-items: center; padding: 5%;">
+          <div style="width: 500px; background: #ffffff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; overflow: hidden;">
+            <div style="background: #0078D7; color: #fff; padding: 15px; text-align: center; font-size: 1.2em; font-weight: bold;">
+              Virtual Assistant
+              <img src="assets/images/bot.gif" width="50px" alt="Shape Leaf - Better Tomorrow - ">
+            </div>
+            <div id="chat-container" style=" padding: 10px; overflow-y: auto; background: #f9f9f9; height: 270px; max-height: 270px;"  >
+              <div style="margin-bottom: 10px; padding: 10px; border-radius: 8px; max-width: 70%; color: rgb(0, 0, 0); background: rgb(241, 241, 241); align-self: flex-start; margin-right: auto;">
+                <strong>Chatbot:</strong> Hi, I'm an AI virtual therapy assistant. You can tell me about your problem and i will try to help you
+              </div>
+            </div>
+            <form id="chat-form" style="display: flex; border-top: 1px solid #ddd;">
+              <input id="chat-input" type="text" placeholder="Type a message..." style="flex: 1; border: none; padding: 10px; font-size: 1em; outline: none;">
+              <button type="submit" style="background: #0078D7; color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 1em;">Send</button>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Page Banner - End
+        ================================================== -->
+
+        <!-- FAQ Section - Start
+        ================================================== -->
+        
+        <!-- FAQ Section - End
+        ================================================== -->
+
+        <!-- Contact Section - Start
+        ================================================== -->
+       
+        <!-- Contact Section - End
+        ================================================== -->
+
+      </main>
+      <!-- Main Body - End
+      ================================================== -->
+
+      <!-- Site Footer - Start
+      ================================================== -->
+      <footer class="site_footer bg_primary">
+        <div class="container">
+          <div class="site_footer_content">
+            <div class="row align-items-center">
+              <div class="col-lg-3">
+                <div class="site_logo">
+                  <a class="site_link" href="index.html">
+                    <img src="assets/images/site_logo/logo-white.svg" alt="Site Logo – Better Tomorrow – ">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <ul class="info_list unordered_list justify-content-center">
+                  <li>
+                    <a href="index.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">About</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="service.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Program</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Blog</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Gallery</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact.html">
+                      <span class="info_icon">
+                        <i class="fa-solid fa-circle"></i>
+                      </span>
+                      <span class="info_text">Contacts</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <ul class="social_links unordered_list justify-content-center justify-content-lg-end">
+                  <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#!"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="copyright_widget text-center">
+            <p class="copyright_text m-0">All rights reserved Copyrights 2024</p>
+          </div>
+        </div>
+      </footer>
+      <!-- Site Footer - End
+      ================================================== -->
+
+    </div>
+    <!-- Body Wrap - End -->
+
+    <!-- Fraimwork - Jquery Include -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+    <script>
+      const chatContainer = document.getElementById('chat-container');
+      const chatForm = document.getElementById('chat-form');
+      const chatInput = document.getElementById('chat-input');
+      
+      const HUGGING_FACE_API_URL = 'https://api-inference.huggingface.co/models/microsoft/Phi-3.5-mini-instruct/v1/chat/completions';
+      const API_KEY = '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'; 
+      
+      // Event listener for the form submission
+      chatForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const userMessage = chatInput.value.trim();
+        if (userMessage) {
+          addMessage('You', userMessage, '#0078D7', '#fff');
+          getChatbotResponse(userMessage);
+          chatInput.value = '';
+          chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+      });
+    
+      // Function to add messages to the chat container
+      function addMessage(sender, text, bgColor, textColor) {
+        const message = document.createElement('div');
+        message.style.marginBottom = '10px';
+        message.style.padding = '10px';
+        message.style.borderRadius = '8px';
+        message.style.maxWidth = '70%';
+        message.style.color = textColor;
+        message.style.background = bgColor;
+    
+        if (sender === 'You') {
+          message.style.alignSelf = 'flex-end';
+          message.style.marginLeft = 'auto';
+        } else {
+          message.style.alignSelf = 'flex-start';
+          message.style.marginRight = 'auto';
+        }
+    
+        message.innerHTML = `<strong>${sender}:</strong> ${text}`;
+        chatContainer.appendChild(message);
+      }
+    
+      // Function to get a response from the Phi-3.5-mini-instruct model
+      async function getChatbotResponse(userMessage) {
+        const response = await fetch(HUGGING_FACE_API_URL, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${API_KEY}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model: "microsoft/Phi-3.5-mini-instruct",
+            messages: [
+              {
+                role: "user",
+                content: userMessage
+              }
+            ],
+            max_tokens: 500,
+            stream: false
+          })
+        });
+    
+        if (response.ok) {
+          const data = await response.json();
+          const chatbotMessage = data.choices[0].message.content || 'Sorry, I didn’t quite get that.';
+          addMessage('Chatbot', chatbotMessage, '#f1f1f1', '#000');
+        } else {
+          addMessage('Chatbot', 'Sorry, something went wrong. Please try again.', '#f1f1f1', '#000');
+        }
+      }
+    </script>
+    
+    
+    <!-- animation - jquery include -->
+    <script src="assets/js/cursor.min.js"></script>
+
+    <!-- Carousel - Jquery Include -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Video & Image Popup - Jquery Include -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    
+    <!-- Counter - Jquery Include -->
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+
+    <!-- Custom - Jquery Include -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
